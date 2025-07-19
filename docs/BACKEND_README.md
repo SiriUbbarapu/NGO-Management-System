@@ -276,17 +276,6 @@ GET /api/students?page=1&limit=20&center=Delhi%20Center&search=john
 - Can mark attendance and add test scores
 - Cannot access user management or system-wide statistics
 
-## 🚀 Deployment
-
-### Environment Variables for Production
-```env
-NODE_ENV=production
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/kalam-foundation
-JWT_SECRET=your-production-jwt-secret
-PORT=5000
-FRONTEND_URL=https://your-frontend-domain.com
-```
-
 
 ## 🧪 Testing
 
