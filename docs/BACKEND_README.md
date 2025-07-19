@@ -287,16 +287,6 @@ PORT=5000
 FRONTEND_URL=https://your-frontend-domain.com
 ```
 
-### Docker Deployment (Optional)
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-EXPOSE 5000
-CMD ["npm", "start"]
-```
 
 ## 🧪 Testing
 
@@ -309,18 +299,3 @@ curl http://localhost:5000/api/health
 curl http://localhost:5000/api/test
 ```
 
-## 📝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🆘 Support
-
-For support and questions, please contact the development team or create an issue in the repository.
