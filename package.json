@@ -1,0 +1,47 @@
+{
+  "name": "kalam-foundation-project",
+  "version": "1.0.0",
+  "description": "Comprehensive NGO management system for Kalam Foundation",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:frontend": "cd frontend && npm run preview",
+    "start:backend": "cd backend && npm start",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "clean": "rm -rf frontend/node_modules backend/node_modules frontend/dist backend/dist",
+    "seed": "cd backend && npm run seed",
+    "test:backend": "cd backend && npm run test-server",
+    "lint": "cd frontend && npm run lint"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "ngo",
+    "management",
+    "react",
+    "nodejs",
+    "mongodb",
+    "education",
+    "empowerment"
+  ],
+  "author": "Kalam Foundation Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/kalam-foundation-project.git"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
