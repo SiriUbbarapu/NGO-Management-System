@@ -175,7 +175,6 @@ cd frontend && npm run dev
 
 - **[Frontend Documentation](docs/README.md)** - React app setup and components
 - **[Backend API Documentation](docs/BACKEND_README.md)** - Complete API reference
-- **[Deployment Guide](docs/DEPLOYMENT_GUIDE.md)** - Production deployment instructions
 
 
 
