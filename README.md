@@ -67,16 +67,6 @@ npm run dev
 - **Backend API**: http://localhost:5000/api
 - **Health Check**: http://localhost:5000/api/health
 
-## 🔐 Demo Credentials
-
-### Admin Access
-- **Email**: `admin@kalamfoundation.org`
-- **Password**: `admin123`
-
-### Tutor Access
-- **Delhi Center**: `priya@kalamfoundation.org` / `tutor123`
-- **Mumbai Center**: `rajesh@kalamfoundation.org` / `tutor123`
-- **Bangalore Center**: `anita@kalamfoundation.org` / `tutor123`
 
 ## 🎯 Features
 
@@ -171,7 +161,6 @@ npm run dev
 
 ## 🚀 Deployment
 
-### Development
 ```bash
 # Backend
 cd backend && npm run dev
@@ -180,15 +169,7 @@ cd backend && npm run dev
 cd frontend && npm run dev
 ```
 
-### Production
-```bash
-# Backend
-cd backend && npm start
 
-# Frontend
-cd frontend && npm run build
-# Deploy dist/ folder to static hosting
-```
 
 ## 📚 Documentation
 
@@ -196,13 +177,6 @@ cd frontend && npm run build
 - **[Backend API Documentation](docs/BACKEND_README.md)** - Complete API reference
 - **[Deployment Guide](docs/DEPLOYMENT_GUIDE.md)** - Production deployment instructions
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 
 **🎉 Built with ❤️ for empowering communities and transforming lives through the Kalam Foundation!**
