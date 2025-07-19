@@ -164,21 +164,4 @@ npm run build
 3. Configure environment variables for production APIs
 4. Set up proper authentication and security measures
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is developed for Todays Kalam Foundation's internal use.
-
-## 🙏 Acknowledgments
-
-- Todays Kalam Foundation for their mission and requirements
-- React and Vite communities for excellent tooling
-- Tailwind CSS for the design system
-- All contributors and volunteers
